@@ -42,8 +42,17 @@ def policy_improvement(V, P, gamma=1.0):
 
 
 POLICY ITERATION FUNCTION
+
+
+
 Name : SUDHARSAN S
+
+
+
 Register Number : 212224040335
+
+
+
 ```
 def policy_iteration(P, gamma=1.0, theta=1e-10):
   random_actions=np.random.choice(tuple(P[0].keys()),len(P))
