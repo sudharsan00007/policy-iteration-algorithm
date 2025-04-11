@@ -1,29 +1,24 @@
-# POLICY ITERATION ALGORITHM
-```
-## AIM
+ POLICY ITERATION ALGORITHM
+
+AIM
 
 To develop a Python program to find the optimal policy for the given MDP using the policy iteration algorithm.
-```
-```
+
+
 
 PROBLEM STATEMENT
 The aim of this experiment is to find optimal policy for the mdp using policy iteration. Policy iteration includes policy evaluation and policy improvement where evaluation function is used to find optimal value function of each state and then improvement function is used to find best policy by comparing all the action value function as well as policy.
-```
-```
+
+
 
 POLICY ITERATION ALGORITHM
 Step1 : We are going to do policy evaluation of each state to get the state value function where the initial policy is defined randomly to the MDP.
 
 Step2: Once we obtain convergence in the policy evaluation then implement policy improvement where we are going to find best optimal policy until the previous and current policy are same.
-```
 
 
 POLICY IMPROVEMENT FUNCTION
-
-
 Name :SUDHARSAN S
-
-
 Register Number : 212224040335
 
 
@@ -66,9 +61,8 @@ def policy_iteration(P, gamma=1.0, theta=1e-10):
    return V, pieration function
 ```
 
-
-## OUTPUT:
-### 1. Policy, Value function and success rate for the Adversarial Policy
+OUTPUT:
+1. Policy, Value function and success rate for the Adversarial Policy
 
 ![image](https://github.com/user-attachments/assets/4387ba25-ea8b-4a12-9917-20fba3448521)
 
@@ -77,7 +71,7 @@ def policy_iteration(P, gamma=1.0, theta=1e-10):
 ![image](https://github.com/user-attachments/assets/43f30da5-2be8-4073-8532-6c2da5dcdd72)
 
 
-### 2. Policy, Value function and success rate for the Improved Policy
+ 2. Policy, Value function and success rate for the Improved Policy
 
 ![image](https://github.com/user-attachments/assets/2c3e6610-f063-407c-98f3-d75d7d747b2b)
 
@@ -85,7 +79,7 @@ def policy_iteration(P, gamma=1.0, theta=1e-10):
 
 ![image](https://github.com/user-attachments/assets/ee13db1b-ebd1-4c11-ab55-33b563e8cb60)
 
-### 3. Policy, Value function and success rate after policy iteration
+ 3. Policy, Value function and success rate after policy iteration
 
 ![image](https://github.com/user-attachments/assets/fadab101-6b65-45c6-be1f-69e1b00bc680)
 
@@ -95,5 +89,5 @@ def policy_iteration(P, gamma=1.0, theta=1e-10):
 
 
 
-## RESULT:
+ RESULT:
 Thus, The Python program to find the optimal policy for the given MDP using the policy iteration algorithm is successfully executed.
